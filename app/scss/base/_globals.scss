@@ -1,0 +1,18 @@
+html {
+  //--- Typography
+  font-family: $mainFont;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  color: $text-color;
+
+  //--- Visual
+  background-color: $bg;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+//---hack--- Easier padding, margin controlling
+body img {
+  display: block;
+}

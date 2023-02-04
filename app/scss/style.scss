@@ -1,0 +1,18 @@
+@import "./base/normalize-reset";
+@import "./base/vars";
+@import "./base/mixins";
+@import "./base/globals";
+
+//--- HEADER
+@import "./modules/header";
+
+//--- SECTIONS
+@import "./modules/hero";
+@import "./modules/goal";
+@import "./modules/products";
+@import "./modules/news";
+
+//--- FOOTER
+@import "./modules/footer";
+
+//--- ELEMENTS

@@ -1,0 +1,12 @@
+@mixin button--accent {
+	//--- Box model
+	padding: 8px 20px;
+
+	//--- Typography
+	text-decoration: none;
+	color: $text-color;
+
+	//--- Visual
+	background-color: $accent;
+	border-radius: 10px;
+}
