@@ -1,0 +1,42 @@
+.bottom-nav {
+  //--- Box model
+  margin: 0 auto;
+  margin-bottom: 47px;
+}
+
+.bottom-nav__list {
+  //--- Box model
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.bottom-nav__item h3 {
+  //--- Box model
+  margin-bottom: 15px;
+
+  //--- Typography
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.bottom-nav__item ul {
+  //--- Box model
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.bottom-nav__item ul li a {
+  //--- Typography
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $text-color;
+
+  //--- Visual
+  opacity: 0.5;
+}
