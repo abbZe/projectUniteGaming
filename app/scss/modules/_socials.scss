@@ -1,0 +1,150 @@
+.social-media {
+  //--- Box model
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 180px;
+}
+
+.social-media__header {
+  //--- Box model
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 72px;
+
+  //--- Typography
+  text-align: center;
+}
+
+.social-media__title {
+  //--- Typography
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.social-media__header-text--large {
+  //--- Typography
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -0.015em;
+}
+
+.social-media__header-text--small {
+  //--- Typography
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.social-media__list {
+  //--- Box model
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-media__item {
+  //--- Box model
+  border-radius: 20px;
+  padding-top: 38px;
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-bottom: 55px;
+  width: 490px;
+}
+
+.social-media__item img {
+  //--- Box model
+  margin-bottom: 18px;
+}
+
+.social-media__item h3 {
+  //--- Box model
+  margin-bottom: 440px;
+
+  //--- Typography
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 115%;
+  letter-spacing: -0.01em;
+}
+
+.social-media__item a {
+  @include link--chevrone;
+
+  //--- Typography
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  color: $text-color;
+}
+
+.social-media__item.instagram {
+  //--- Positioning
+  position: relative;
+
+  //--- Visual
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  
+  
+  
+}
+
+.social-media__item.instagram .instagram__bg {
+  //--- Positioning
+  position: absolute;
+  top: 285px;
+  right: 38px;
+
+  //--- Box model
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.instagram__bg img {
+  //--- Box model
+  width: 128px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.social-media__item.icq {
+  //--- Positioning
+  position: relative;
+
+  //--- Visual
+  background-color: #00DBDE;
+  background-image: linear-gradient(135deg, #00DBDE 0%, #FC00FF 100%);
+  
+}
+
+.social-media__item.icq .icq__bg {
+  //--- Positioning
+  position: absolute;
+  bottom: 0;
+  right: 27px;
+
+  //-- Box model
+  width: 246px;
+  height: 483px;
+
+  //--- Visual
+  background-image: url(../images/modules/socials/bg-icq-channel.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+
+
+
