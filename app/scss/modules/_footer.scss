@@ -1,0 +1,112 @@
+.main-footer {
+  //--- Box model
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  border-top: 1px solid #ffffff48;
+  gap: 275px;
+  padding-top: 47px;
+  padding-bottom: 60px;
+}
+
+.main-footer__logo {
+  //--- Box model
+  width: 92px;
+  height: 55px;
+}
+
+.main-footer__text-list {
+  //--- Box model
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.main-footer__text-item a {
+  //--- Typography
+  text-decoration: none;
+  color: $text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.main-footer__socials-list {
+  //--- Box model
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.main-footer__socials-item {
+  //--- Positioning
+  position: relative;
+
+  //--- Box model
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 1.5px solid #ffffff48;
+  border-radius: 50%;
+}
+
+.main-footer__socials-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-footer__socials-item.tiktok a::after {
+  //--- Positioning
+  position: absolute;
+
+  //--- Box model
+  width: 16px;
+  height: 18px;
+
+  //--- Visual
+  background-image: url(../images/tiktok-logo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: '';
+}
+
+.main-footer__socials-item.instagram a::after {
+  //--- Positioning
+  position: absolute;
+
+  //--- Box model
+  width: 18px;
+  height: 18px;
+
+  //--- Visual
+  background-image: url(../images/instagram-logo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: '';
+}
+
+.main-footer__socials-item.icq a::after {
+  //--- Positioning
+  position: absolute;
+
+  //--- Box model
+  width: 17px;
+  height: 17px;
+
+  //--- Visual
+  background-image: url(../images/icq-logo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: '';
+}
+
+
+
