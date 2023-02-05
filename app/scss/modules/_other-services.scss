@@ -1,4 +1,5 @@
 .other-services {
+  @include min-width;
   //--- Box model
   display: flex;
   flex-direction: column;

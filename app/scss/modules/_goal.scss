@@ -1,4 +1,5 @@
 .goal {
+  @include min-width;
   //--- Positioning
   position: relative;
 

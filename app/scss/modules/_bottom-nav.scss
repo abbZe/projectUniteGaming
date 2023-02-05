@@ -1,4 +1,5 @@
 .bottom-nav {
+  @include min-width;
   //--- Box model
   margin: 0 auto;
   margin-bottom: 47px;

@@ -1,4 +1,5 @@
 .main-footer {
+  @include min-width;
   //--- Box model
   display: flex;
   justify-content: center;

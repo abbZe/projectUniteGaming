@@ -471,6 +471,7 @@ body img {
 }
 
 .main-header {
+  min-width: 1200px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,6 +555,7 @@ body img {
 }
 
 .hero {
+  min-width: 1200px;
   position: relative;
   margin: 0 auto;
   display: -webkit-box;
@@ -640,6 +642,7 @@ body img {
 }
 
 .goal {
+  min-width: 1200px;
   position: relative;
   margin: 0 auto;
   display: -webkit-box;
@@ -697,6 +700,7 @@ body img {
 }
 
 .products {
+  min-width: 1200px;
   margin: 0 auto;
   margin-bottom: 140px;
   display: -webkit-box;
@@ -972,6 +976,7 @@ body img {
 }
 
 .news {
+  min-width: 1200px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1063,6 +1068,7 @@ body img {
 }
 
 .social-media {
+  min-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1206,6 +1212,7 @@ body img {
 }
 
 .other-services {
+  min-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1425,6 +1432,7 @@ body img {
 }
 
 .how-to-play {
+  min-width: 1200px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1471,6 +1479,7 @@ body img {
 }
 
 .bottom-nav {
+  min-width: 1200px;
   margin: 0 auto;
   margin-bottom: 47px;
 }
@@ -1516,6 +1525,7 @@ body img {
 }
 
 .main-footer {
+  min-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

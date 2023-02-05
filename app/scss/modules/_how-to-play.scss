@@ -1,4 +1,5 @@
 .how-to-play {
+  @include min-width;
   //--- Box model
   margin: 0 auto;
   display: flex;

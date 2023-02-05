@@ -1,4 +1,5 @@
 .news {
+  @include min-width;
   //--- Box model
   margin: 0 auto;
   display: flex;

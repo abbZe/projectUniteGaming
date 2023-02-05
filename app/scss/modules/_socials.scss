@@ -1,4 +1,5 @@
 .social-media {
+  @include min-width;
   //--- Box model
   display: flex;
   flex-direction: column;
