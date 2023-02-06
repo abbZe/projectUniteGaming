@@ -6,7 +6,7 @@
 
 	//--- Box model
 	display: block;
-	width: 90px;
+	width: 50px;
 	padding: 0;
 
 	//--- Visual
@@ -17,6 +17,10 @@
 
 	//--- Misc
 	cursor: pointer;
+
+  @include md-u {
+    display: none;
+  }
 }
 
 .hamburger .bar, .hamburger::after, .hamburger::before {
@@ -24,7 +28,7 @@
 	display: block;
 	width: 100%;
 	height: 5px;
-	margin: 20px 0;
+	margin: 10px 0;
 
 	//--- Visual
 	background-color: $text-color;
@@ -64,6 +68,10 @@
   //--- Visual
   background-color: $gray;
   transition: 0.4s;
+
+  @include md-u {
+    display: none;
+  }
 }
 
 .mobile-nav a {

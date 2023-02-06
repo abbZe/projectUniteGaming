@@ -53,19 +53,19 @@ $breakpoints: (
 
 //--- Desktop first
 @mixin lg-d {
-  @media (max-width: calc(map-get($breakpoints, xl) - 0.2px)) {
-    @content;
-  }
-}
-
-@mixin md-d {
   @media (max-width: calc(map-get($breakpoints, lg) - 0.2px)) {
     @content;
   }
 }
 
-@mixin sm-d {
+@mixin md-d {
   @media (max-width: calc(map-get($breakpoints, md) - 0.2px)) {
+    @content;
+  }
+}
+
+@mixin sm-d {
+  @media (max-width: calc(map-get($breakpoints, sm) - 0.2px)) {
     @content;
   }
 }
@@ -104,5 +104,5 @@ $breakpoints: (
 }
 
 @mixin min-width {
-	min-width: 1200px;
+  width: 100%;
 }

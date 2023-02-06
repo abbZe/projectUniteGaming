@@ -20,9 +20,9 @@
 	@include sm-d {
 		//--- Box model
 		justify-content: space-between;
-		padding-right: 3rem;
-		padding-left: 3rem;
-		height: 7em;
+		padding-right: 2rem;
+		padding-left: 2rem;
+		height: 4rem;
 	}
 }
 
@@ -33,7 +33,7 @@
 
 .main-header img {
 	@include sm-d {
-		width: 200px;
+		width: 100px;
 		height: auto;
 	}
 }
