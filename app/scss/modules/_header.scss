@@ -1,5 +1,8 @@
 .main-header {
 	@include min-width;
+	//--- Positioning
+	position: relative;
+
 	//--- Box model
 	margin: 0 auto;
 	display: flex;
@@ -9,15 +12,30 @@
 	padding-top: 11px;
 	padding-bottom: 11px;
 	border: 1px solid rgba(63, 63, 74, 0.6);
+	z-index: 99;
 
 	//--- Visual
 	background-color: $bg-header;
-}
 
+	@include sm-d {
+		//--- Box model
+		justify-content: space-between;
+		padding-right: 3rem;
+		padding-left: 3rem;
+		height: 7em;
+	}
+}
 
 .main-header a {
 	//--- Typography
 	color: $text-color;
+}
+
+.main-header img {
+	@include sm-d {
+		width: 200px;
+		height: auto;
+	}
 }
 
 .main-header__nav {
@@ -36,6 +54,10 @@
 
 	//--- Typography
 	font-size: 15px;
+
+	@include sm-d {
+		display: none;
+	}
 }
 
 .nav-list__item a {
@@ -62,6 +84,10 @@
 
 	//--- Misc
 	cursor: pointer;
+
+	@include sm-d {
+		display: none;
+	}
 }
 
 .lang-toggler::after {
@@ -91,5 +117,10 @@
 	//--- Visual
 	background-color: $accent;
 	border-radius: 10px;
+
+	@include sm-d {
+		display: none;
+	}
 }
+
 
